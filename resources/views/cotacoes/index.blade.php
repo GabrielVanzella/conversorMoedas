@@ -53,7 +53,7 @@
       <strong>Valor da moeda de destino {{$nome_moeda_destino}}</strong> {{$valor_moeda_destino}}<br>
       <strong>Valor Total R$ </strong> {{$valor_total_reais}}<br><br>
 
-      <strong>1 Regra -></strong> Aplicar taxa de 2% pela conversão para valores abaixo de R$ 3.700,00 e 1% para valores maiores que R$ 3.700,01, essa taxa deve ser aplicada apenas no valor da compra e não sobre o valor já com a taxa de forma de pagamento. <strong>Com base na especificação da regra o resultado é R$ {{$vrl_taxa_conversao_reais}}.</strong><br>
+      <strong>1 Regra -></strong> Aplicar taxa de 2% pela conversão para valores menor ou igual á R$ 3.700,00 e 1% para valores igual ou maior que R$ 3.700,01, essa taxa deve ser aplicada apenas no valor da compra e não sobre o valor já com a taxa de forma de pagamento. <strong>Com base na especificação da regra o resultado é R$ {{$vrl_taxa_conversao_reais}}.</strong><br>
       <strong>Taxa Conversão com base da <strong>Regra 1 </strong>({{$getJurosValorTotalPercentual}}%)</strong><br><br>
 
       <strong>2 Regra -></strong>
