@@ -15,6 +15,7 @@ class CreateCotacoesTable extends Migration
     {
         Schema::create('cotacoes', function (Blueprint $table) {
             $table->id();
+            $table->string('nome');
             $table->timestamps();
         });
     }
